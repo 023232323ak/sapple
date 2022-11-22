@@ -1,0 +1,177 @@
+@media (max-width:1200px) {
+    .nav {
+        margin: 0;
+    }
+}
+
+@media (max-width:1080px) {
+    .nav__button {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile__nav__active {
+        display: flex;
+    }
+    .footer {
+        height: auto;
+    }
+    .header {
+        width: 100%;
+    }
+    .home__main {
+        display: block;
+    }
+    .backgroung {
+        text-align: center;
+    }
+}
+
+@media (max-width:942px) {
+    .mod h1 {
+        width: auto;
+        font-size: 28px;
+    }
+    .forma {
+        width: auto;
+    }
+    .forma__price {
+        margin-left: 43px;
+        margin-right: 43px;
+    }
+    .forma__button {
+        margin-left: 223px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer__icon,
+    .footer__in {
+        display: block;
+    }
+}
+
+@media (max-width:700px) {
+    .mod h1 {
+        width: auto;
+        font-size: 20px;
+    }
+    .module__photo img {
+        width: 80%;
+    }
+    .box {
+        width: 400px;
+    }
+}
+
+@media (max-width:600px) {
+    .backgroung img {
+        width: 80%;
+    }
+    .article h1 {
+        font-size: 34px;
+        line-height: 39px;
+        top: 0;
+    }
+    .module__photo {
+        width: 100%;
+    }
+    form {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .forma {
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 100%;
+    }
+    input {
+        width: 463px;
+    }
+    .forma__price {
+        width: auto;
+    }
+    .forma__button {
+        margin-left: 178px;
+    }
+    .footer {
+        display: block;
+    }
+    .footer_rights {
+        margin-bottom: 20px;
+    }
+    .footer__icon {
+        margin-left: 23px;
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    .box {
+        width: 350px;
+    }
+    .mod h1 {
+        font-size: 16px;
+        top: 10px;
+    }
+    .forma {
+        width: auto;
+    }
+    input {
+        width: 400px;
+    }
+    .footer__icon {
+        display: block;
+    }
+}
+
+@media (max-width:370px) {
+    .mod h1 {
+        font-size: 16px;
+        top: 10px;
+    }
+    .box {
+        width: 300px;
+    }
+    .forma {
+        width: auto;
+    }
+    input {
+        width: 300px;
+    }
+    .box-container {
+        display: block;
+    }
+    .box {
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .forma__name {
+        font-size: 18px;
+    }
+    input::placeholder {
+        font-size: 14px;
+    }
+    .forma__price p {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .forma__price p span {
+        font-size: 14px;
+    }
+    .forma__button {
+        margin-left: 79px;
+    }
+    .forma__input {
+        margin-left: 12px;
+    }
+    .contact h3 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+    .footer__right {
+        margin-left: 71px;
+        margin-top: -12px;
+    }
+}
