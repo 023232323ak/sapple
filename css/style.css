@@ -165,7 +165,8 @@ body {
     font-weight: 800;
     font-size: 64px;
     line-height: 87px;
-    text-align: center;
+    text-align: justify;
+  
 }
 
 .home__button {
